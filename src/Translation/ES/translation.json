@@ -23,5 +23,47 @@
             "descripcion-equipo" : "El equipo",
             "texto-equipo" : "Nos especializamos en ofrecer soluciones de diseño web centradas en el diseño UI, ilustración y diseño gráfico. Nuestras diversas habilidades y pasión por el diseño nos permiten dar vida a su visión y crear una presencia en línea visualmente impresionante que capte y convierta a su audiencia. Permítanos elevar su marca a través de la creatividad y el diseño estratégico."
         }
+    },
+    "proyectos-sliders" : {
+        "mag-slider-es" : {
+            "header" : "Moto Arte Garage",
+            "text" : "¿Qué tal una página web para un taller Harley-Davidson? Pues aquí está, el principal problema era la comunicación con los nuevos clientes que quieren saber dónde está el taller, qué hace y cuándo pueden visitarlo. Un ejemplo perfecto de diseño web implementado con wordpress.",
+            "button" : "See More"
+        },
+        "gdp-slider-es" : {
+            "header" : "Guba Doce Pares Mexico",
+            "text" : "¡También podemos hacer una página web con diseño web con React! ¿Qué tal un sitio web para un grupo de artes marciales? Sitio web diseñado para un clan de auténticos practicantes filipinos de Eskrima-Kali-Arnis, para conocerlos y saber dónde y cómo encontrarlos.",
+            "button" : "See More"
+        },
+        "bombilla-slider-es" : {
+            "header" : "Bombilla Iluminarte",
+            "text" : "Diseño de blog de divulgación científica y artística. Diseñado en Figma, implementado con WordPress, Bombilla Iluminarte ofrece al público un acercamiento a la ciencia y el arte, desde un enfoque atractivo.",
+            "button" : "See More"
+        },
+        "ximet-slider-es" : {
+            "header" : "Ximet",
+            "text" : "Un sitio web sencillo pero hermoso para una empresa de investigación clínica, creado con Figma e implementado con WordPress.",
+            "button" : "See More"
+        },
+        "casa-huichol-slider-es" : {
+            "header" : "Casa Huichol",
+            "text" : "Sitio web diseñado para una organización benéfica de salud que proporciona refugio y atención médica a las comunidades indígenas wixaritari en Jalisco, MX. Este es un hermoso diseño web implementado con wordpress.",
+            "button" : "See More"
+        },
+        "bizbud-slider-es" : {
+            "header" : "Bizbud",
+            "text" : "¡Podemos aplicarlo todo en un solo sitio web! Bizbud quería ofrecer más beneficios a sus usuarios a través de su BTHC Early Mint Pass, necesitaban todo el concept art, y páginas web. Diseño de los personajes NFTs, ilustraciones, escenarios, GIFs, diseño web, y branding de la campaña.",
+            "button" : "See More"
+        },
+        "bthc-slider-es" : {
+            "header" : "BTHC",
+            "text" : "¡Podemos aplicarlo todo en un solo sitio web! BTHC quería ofrecer más beneficios a sus usuarios, necesitaban todo el arte conceptual, y páginas web. NFTs diseño de personajes, ilustraciones, escenarios, GIFs, diseño web, y branding de la campaña.",
+            "button" : "See More"
+        }
+    },
+    "proyectos" : {
+        "mag-proyecto-es" : {
+            "header" : "Moto Arte Garage"
+        }
     }
 }

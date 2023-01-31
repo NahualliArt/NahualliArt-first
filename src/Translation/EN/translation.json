@@ -23,5 +23,49 @@
             "team-description" : "The team",
             "text-team" : "We specialize in providing web design solutions focused on UI design, illustration and graphic design. Our diverse skills and passion for design allow us to bring your vision to life and create a visually stunning online presence that engages and converts your audience. Let us elevate your brand through creativity and strategic design."
         }
+        
+    },
+
+    "sliders-projects" : {
+            "mag-slider" : {
+                "header" : "Moto Arte Garage",
+                "text" : "How about a website for a Harley-Davidson workshop? Well here it is, the main problem was communication with new customers who want to know where the workshop is, what the workshop does and when they can visit it. A perfect example of web design implemented with wordpress.",
+                "button" : "See More"
+            },
+            "gdp-slider" : {
+                "header" : "Guba Doce Pares Mexico",
+                "text" : "We also can make a website with web design with React! How about a website for a martial arts group? Website designed for a clan of authentic Filipino Eskrima-Kali-Arnis practitioners, to meet them and know where and how to find them.",
+                "button" : "See More"
+            },
+            "bombilla-slider" : {
+                "header" : "Bombilla Iluminarte",
+                "text" : "Blog design for scientific and artistic divulgation. Designed in Figma, implemented with WordPress, Bombilla Iluminarte offers the public an approach to science and art, from an attractive approach.",
+                "button" : "See More"
+            },
+            "ximet-slider" : {
+                "header" : "Ximet",
+                "text" : "A simply yet beautiful website for a clinic research company, starting with Figma, and implemented with WordPress",
+                "button" : "See More"
+            },
+            "casa-huichol-slider" : {
+                "header" : "Casa Huichol",
+                "text" : "Website designed for a health charity organization that provides shelter and medical care to indigenous wixaritari communities in Jalisco, MX. This is a beautiful web design implemented with wordpress.",
+                "button" : "See More"
+            },
+            "bizbud-slider" : {
+                "header" : "Bizbud",
+                "text" : "We can apply everything on one website! Bizbud wanted to offer more benefits to their users through their BTHC Early Mint Pass, they needed the whole concept art, and web pages. Design of the NFTs characters, illustrations, scenarios, GIFs, web design, and campaign branding.",
+                "button" : "See More"
+            },
+            "bthc-slider" : {
+                "header" : "BTHC",
+                "text" : "We can apply it all in one website! BTHC wanted to offer more benefits to their users, they needed all the concept art, and web pages. NFTs character design, illustrations, scenarios, GIFs, web design, and campaign branding.",
+                "button" : "See More"
+            }
+    },
+    "projects" : {
+        "mag-project" : {
+            "header" : "Moto Arte Garage"
+        }
     }
 }
