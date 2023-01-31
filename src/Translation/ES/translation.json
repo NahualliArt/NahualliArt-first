@@ -4,6 +4,16 @@
         "hero" : "Creamos experiencias digitales intuitivas y estéticamente agradables",
         "button-intro" : "Leer más",
         "welcome" : "Llegaste a ",
-        "intro" : "una agencia de diseño visual digital donde la creatividad se une a la funcionalidad. Nuestro equipo crea experiencias visualmente impresionantes y centradas en el usuario para sitios web, aplicaciones móviles y productos digitales. Colaboremos para dar vida a tu visión y dejar un impacto duradero en tu audiencia."
+        "intro" : "una agencia de diseño visual digital donde la creatividad se une a la funcionalidad. Nuestro equipo crea experiencias visualmente impresionantes y centradas en el usuario para sitios web, aplicaciones móviles y productos digitales. Colaboremos para dar vida a tu visión y dejar un impacto duradero en tu audiencia.",
+        "trabajo" : {
+            "diseño-ui" : "Diseño UI",
+            "texto-ui" : "Servicio de diseño de interfaz de usuario para agencias, especializado en la creación de interfaces elegantes y funcionales para aplicaciones web y móviles. Elevamos la experiencia del usuario.",
+            "diseño-web" : "Diseño Web",
+            "texto-web" : "Agencia de diseño web especializada en sitios web visualmente impactantes y fáciles de usar. Damos vida a su visión desde el concepto hasta el lanzamiento.",
+            "ilustracion" : "Ilustración",
+            "texto-ilustracion" : "Servicio de ilustración para agencias, que crea imágenes únicas y llamativas para diversos medios. Desde los bocetos conceptuales hasta el arte final, damos vida a las ideas.",
+            "diseño-grafico" : "Diseño Gráfico",
+            "texto-grafico" : "Transforme su marca con nuestros servicios de diseño gráfico. Desde logotipos hasta materiales de marketing, creamos soluciones visuales que comunican su mensaje con eficacia."
+        }
     }
 }
