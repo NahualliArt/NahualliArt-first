@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { ThemeContext } from './contexts/theme-context';
-import Header from './components/Header'
+import Header from './components/Header';
+import Home from './components/Home';
 import './styles/App.scss';
 
 function App() {
@@ -21,9 +22,9 @@ function App() {
   return (
     <ThemeContext.Provider value={{ theme, setTheme }}>
       <div className={`theme-${theme}`}>
-        
           <div className="content-wrapper">
             <Header/>
+            <Home/>
           </div>
       </div>
     </ThemeContext.Provider>
