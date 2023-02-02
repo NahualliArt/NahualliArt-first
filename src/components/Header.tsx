@@ -24,12 +24,14 @@ function Header() {
     setTheme(isCurrentDark ? 'light' : 'dark');
     localStorage.setItem('theme', isCurrentDark ? 'light' : 'dark');
 
-  };  return (
+  };  
+  
+  return (
 
     <header className="header">
       <div className="header-content">
 
-      <select onChange={onClickLanguageChange}>
+        <select onChange={onClickLanguageChange}>
           <option value={"en"}>English</option>
           <option value={"es"}>Spanish</option>
         </select>
@@ -37,8 +39,6 @@ function Header() {
         <a href="/" className="logo-section">
           <span>{t("test-text")}</span>
         </a>
-                        
-        
 
         <div className="toggle-btn-section">
           <div className={`toggle-checkbox m-vertical-auto`}>

@@ -2,19 +2,16 @@
 
 /*Header styles*/
 .header {
-  width: 100%;
-  padding: 30px;
+  padding: 10px;
   z-index: 99;
-  box-shadow: 8px 0 25px rgba(0, 0, 0, 0.05);
   @include themify($themes) {
     background: themed('colorHeaderFooter');
   }
   .header-content {
-    max-width: 1800px;
-    margin: 0 auto;
+    margin: auto;
     display: flex;
     .logo-section {
-      height: 50px;
+      height: 30px;
       text-decoration: none;
       display: flex;
       width: inherit;
@@ -72,13 +69,13 @@
             border-radius: 50%;
             transition: 0.3s;
             box-shadow: 0 5px 10px rgba(153, 153, 153, 0.4);
-            background-color: #fff;
+            background-color: #333;
           }
         }
 
         .toggle-btn__input:checked ~ .toggle-btn__input-label {
           &:after {
-            background: #fff;
+            background: #F5F5F5;
             left: calc(100% - 3px);
             transform: translateX(-100%);
           }
@@ -87,7 +84,7 @@
         .toggle-btn__input:checked ~ .toggle-btn__theme {
           &:after {
             // theme switch circle background in light theme
-            background: #fff;
+            background: #F5F5F5;
             left: calc(100% - 3px);
             transform: translateX(-100%);
           }
@@ -95,23 +92,9 @@
       }
 
       .toggle-btn__input:checked ~ .toggle-btn__input-label {
-        background-color: #82deff;
+        background-color: #333;
       }
     }
   }
-}
-
-/*Layout wrapper styles*/
-
-.layout-wrapper {
-  @include themify($themes) {
-    background: themed('colorBackground');
-  }
-}
-
-.main-wrapper {
-  display: flex;
-  flex-direction: column;
-  height: calc(100vh - 78px);
 }
 
