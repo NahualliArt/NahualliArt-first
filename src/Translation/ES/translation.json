@@ -5,86 +5,90 @@
         "button-intro" : "Leer más",
         "welcome" : "Llegaste a ",
         "intro" : "una agencia de diseño visual digital donde la creatividad se une a la funcionalidad. Nuestro equipo crea experiencias visualmente impresionantes y centradas en el usuario para sitios web, aplicaciones móviles y productos digitales. Colaboremos para dar vida a tu visión y dejar un impacto duradero en tu audiencia.",
-        "trabajo" : {
+        "work" : {
             "ui-design" : "Diseño UI",
             "ui-text" : "Servicio de diseño de UI para agencias, especializado en la creación de interfaces elegantes y funcionales para aplicaciones web/móviles. Elevamos la experiencia del usuario.",
-            "diseño-web" : "Diseño Web",
-            "texto-web" : "Agencia de diseño web especializada en sitios web visualmente impactantes y fáciles de usar. Damos vida a su visión desde el concepto hasta el lanzamiento.",
-            "ilustracion" : "Ilustración",
-            "texto-ilustracion" : "Servicio de ilustración para agencias, que crea imágenes únicas y llamativas para diversos medios. Desde los bocetos conceptuales hasta el arte final, damos vida a las ideas.",
-            "diseño-grafico" : "Diseño Gráfico",
-            "texto-grafico" : "Transforme su marca con nuestros servicios de diseño gráfico. Desde logotipos hasta materiales de marketing, creamos soluciones visuales que comunican su mensaje con eficacia."
+            "web-design" : "Diseño Web",
+            "web-text" : "Agencia de diseño web especializada en sitios web visualmente impactantes y fáciles de usar. Damos vida a su visión desde el concepto hasta el lanzamiento.",
+            "ilustration" : "Ilustración",
+            "ilustration-tex" : "Servicio de ilustración para agencias, que crea imágenes únicas y llamativas para diversos medios. Desde los bocetos conceptuales hasta el arte final, damos vida a las ideas.",
+            "graphic-design" : "Diseño Gráfico",
+            "graphic-text" : "Transforme su marca con nuestros servicios de diseño gráfico. Desde logotipos hasta materiales de marketing, creamos soluciones visuales que comunican su mensaje con eficacia."
         },
-        "equipo" : {
-            "texto-sandra" : "Head designer, UI designer y freelancer" ,
-            "texto-kitzia" : "Diseño web front-end y freelancer",
-            "descripcion-equipo" : "El equipo",
-            "texto-equipo" : "Nos especializamos en ofrecer soluciones de diseño web centradas en el diseño UI, ilustración y diseño gráfico. Nuestras diversas habilidades y pasión por el diseño nos permiten dar vida a su visión y crear una presencia en línea visualmente impresionante que capte y convierta a su audiencia. Permítanos elevar su marca a través de la creatividad y el diseño estratégico."
+        "team" : {
+            "sandra-text" : "Head designer, UI designer y freelancer" ,
+            "kitzia-text" : "Diseño web front-end y freelancer",
+            "title" : "El equipo",
+            "text" : "Nos especializamos en ofrecer soluciones de diseño web centradas en el diseño UI, ilustración y diseño gráfico. Nuestras diversas habilidades y pasión por el diseño nos permiten dar vida a su visión y crear una presencia en línea visualmente impresionante que capte y convierta a su audiencia. Permítanos elevar su marca a través de la creatividad y el diseño estratégico."
+        },
+        "cta" : {
+            "title" : "¡Hablemos!",
+            "text" : "Lorem ipsum dolor sit amet consectetur. Euismod a id neque felis aliquam maecenas dictum. Pellentesque sit arcu in etiam sapien tempor vitae non et. Lectus dictum velit integer eu auctor sollicitudin molestie pellentesque. Id commodo tortor sapien pharetra in tincidunt eu."
         }
     },
-    "proyectos-sliders" : {
-        "mag-slider-es" : {
+    "sliders-projects" : {
+        "mag-slider" : {
             "header" : "Moto Arte Garage",
             "text" : "¿Qué tal una página web para un taller Harley-Davidson? Pues aquí está, el principal problema era la comunicación con los nuevos clientes que quieren saber dónde está el taller, qué hace y cuándo pueden visitarlo. Un ejemplo perfecto de diseño web implementado con wordpress.",
             "button" : "Ver más"
         },
-        "gdp-slider-es" : {
+        "gdp-slider" : {
             "header" : "Guba Doce Pares Mexico",
             "text" : "¡También podemos hacer una página web con diseño web con React! ¿Qué tal un sitio web para un grupo de artes marciales? Sitio web diseñado para un clan de auténticos practicantes filipinos de Eskrima-Kali-Arnis, para conocerlos y saber dónde y cómo encontrarlos.",
             "button" : "Ver más"
         },
-        "bombilla-slider-es" : {
+        "bombilla-slider" : {
             "header" : "Bombilla Iluminarte",
             "text" : "Diseño de blog de divulgación científica y artística. Diseñado en Figma, implementado con WordPress, Bombilla Iluminarte ofrece al público un acercamiento a la ciencia y el arte, desde un enfoque atractivo.",
             "button" : "Ver más"
         },
-        "ximet-slider-es" : {
+        "ximet-slider" : {
             "header" : "Ximet",
             "text" : "Un sitio web sencillo pero hermoso para una empresa de investigación clínica, creado con Figma e implementado con WordPress.",
             "button" : "Ver más"
         },
-        "casa-huichol-slider-es" : {
+        "casa-huichol-slider" : {
             "header" : "Casa Huichol",
             "text" : "Sitio web diseñado para una organización benéfica de salud que proporciona refugio y atención médica a las comunidades indígenas wixaritari en Jalisco, MX. Este es un hermoso diseño web implementado con wordpress.",
             "button" : "Ver más"
         },
-        "bizbud-slider-es" : {
+        "bizbud-slider" : {
             "header" : "Bizbud",
             "text" : "¡Podemos aplicarlo todo en un solo sitio web! Bizbud quería ofrecer más beneficios a sus usuarios a través de su BTHC Early Mint Pass, necesitaban todo el concept art, y páginas web. Diseño de los personajes NFTs, ilustraciones, escenarios, GIFs, diseño web, y branding de la campaña.",
             "button" : "Ver más"
         },
-        "bthc-slider-es" : {
+        "bthc-slider" : {
             "header" : "BTHC",
             "text" : "¡Podemos aplicarlo todo en un solo sitio web! BTHC quería ofrecer más beneficios a sus usuarios, necesitaban todo el arte conceptual, y páginas web. NFTs diseño de personajes, ilustraciones, escenarios, GIFs, diseño web, y branding de la campaña.",
             "button" : "Ver más"
         },
-        "brawler-slider-es" : {
+        "brawler-slider" : {
             "header" : "Brawler T-Shirts Diseño de Logo",
             "text" : "Hermoso logotipo personalizado para una marca de camisetas centrada en las artes marciales. Puedes elevar tu marca con un diseño personalizado. Creamos un símbolo único y memorable que representa los valores y la personalidad de tu tienda ¡destaca con un logotipo profesional hoy mismo!",
             "button" : "Ver más"
         },
-        "caliope-slider-es" : {
+        "caliope-slider" : {
             "header" : "Caliope Diseño de Logo",
             "text" : "Precioso logotipo personalizado para una marca de ropa femenina. Eleve su marca con un diseño de logotipo personalizado. Nuestro equipo crea un símbolo único y memorable que representa los valores y la personalidad de tu tienda ¡destaca con un logotipo profesional hoy mismo!",
             "button" : "See More"
         },
-        "chilanguerias-slider-es" : {
+        "chilanguerias-slider" : {
             "header" : "Chilanguerias",
             "text" : "Chilanguerias necesitaba que su tienda de ropa destaque con ilustraciones personalizadas. Nuestro equipo crea diseños llamativos para tu sitio web y material publicitario. ¡Dale a tu marca una personalidad y un atractivo únicos con ilustraciones personalizadas!",
             "button" : "See More"
         },
-        "helenafc-slider-es" : {
+        "helenafc-slider" : {
             "header" : "Helena Fernandez-Cavada",
             "text" : "Para Helena creamos un portafolio hermoso y elegante, sabemos cómo hacer un sitio web amigable con Cargo, agiliza tu negocio con un diseño de sitio web profesional. Nuestro equipo crea sitios web personalizados que mejoran la experiencia del cliente e impulsan el crecimiento en línea.",
             "button" : "See More"
         },
-        "driirp-slider-es" : {
+        "driirp-slider" : {
             "header" : "Deep Roots Institute",
             "text" : "Podemos trascender el diseño web de Figma a la realidad con Squarespace. He aquí Deep Roots Institute, un sitio web minimalista pero sofisticado que te permite influir positivamente en el medio ambiente formando parte de una vibrante comunidad. ¡Puedes desbloquear oportunidades ilimitadas!",
             "button" : "See More"
         }
     },
-    "proyectos" : {
+    "projects" : {
         "mag-proyecto-es" : {
             "header" : "Moto Arte Garage"
         }
