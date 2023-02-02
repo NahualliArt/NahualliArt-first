@@ -16,14 +16,15 @@
             "graphic-text" : "Transform your brand with our graphic design services. From logos to marketing materials, we craft visual solutions that communicate your message effectively."
         },
         "team" : {
-            "sandra" : "Abigail P",
             "sandra-text" : "Head designer, UI designer and freelancer",
-            "kitzia" : "Kitzia P",
             "kitzia-text" : "Front-end web designer and freelancer",
-            "team-description" : "The team",
-            "text-team" : "We specialize in providing web design solutions focused on UI design, illustration and graphic design. Our diverse skills and passion for design allow us to bring your vision to life and create a visually stunning online presence that engages and converts your audience. Let us elevate your brand through creativity and strategic design."
-        }
-        
+            "title" : "The team",
+            "text" : "We specialize in providing web design solutions focused on UI design, illustration and graphic design. Our diverse skills and passion for design allow us to bring your vision to life and create a visually stunning online presence that engages and converts your audience. Let us elevate your brand through creativity and strategic design."
+        },
+        "cta" : {
+            "title" : "Let's talk!",
+            "text" : "Lorem ipsum dolor sit amet consectetur. Euismod a id neque felis aliquam maecenas dictum. Pellentesque sit arcu in etiam sapien tempor vitae non et. Lectus dictum velit integer eu auctor sollicitudin molestie pellentesque. Id commodo tortor sapien pharetra in tincidunt eu."
+        } 
     },
 
     "sliders-projects" : {
@@ -68,6 +69,7 @@
                 "button" : "See More"
             }
     },
+
     "projects" : {
         "mag-project" : {
             "header" : "Moto Arte Garage"

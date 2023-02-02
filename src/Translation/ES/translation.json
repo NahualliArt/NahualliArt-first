@@ -6,8 +6,8 @@
         "welcome" : "Llegaste a ",
         "intro" : "una agencia de diseño visual digital donde la creatividad se une a la funcionalidad. Nuestro equipo crea experiencias visualmente impresionantes y centradas en el usuario para sitios web, aplicaciones móviles y productos digitales. Colaboremos para dar vida a tu visión y dejar un impacto duradero en tu audiencia.",
         "trabajo" : {
-            "diseño-ui" : "Diseño UI",
-            "texto-ui" : "Servicio de diseño de UI para agencias, especializado en la creación de interfaces elegantes y funcionales para aplicaciones web/móviles. Elevamos la experiencia del usuario.",
+            "ui-design" : "Diseño UI",
+            "ui-text" : "Servicio de diseño de UI para agencias, especializado en la creación de interfaces elegantes y funcionales para aplicaciones web/móviles. Elevamos la experiencia del usuario.",
             "diseño-web" : "Diseño Web",
             "texto-web" : "Agencia de diseño web especializada en sitios web visualmente impactantes y fáciles de usar. Damos vida a su visión desde el concepto hasta el lanzamiento.",
             "ilustracion" : "Ilustración",
@@ -16,9 +16,7 @@
             "texto-grafico" : "Transforme su marca con nuestros servicios de diseño gráfico. Desde logotipos hasta materiales de marketing, creamos soluciones visuales que comunican su mensaje con eficacia."
         },
         "equipo" : {
-            "sandra-es" : "Sandra P",
             "texto-sandra" : "Head designer, UI designer y freelancer" ,
-            "kitzia-es" : "Kitzia P",
             "texto-kitzia" : "Diseño web front-end y freelancer",
             "descripcion-equipo" : "El equipo",
             "texto-equipo" : "Nos especializamos en ofrecer soluciones de diseño web centradas en el diseño UI, ilustración y diseño gráfico. Nuestras diversas habilidades y pasión por el diseño nos permiten dar vida a su visión y crear una presencia en línea visualmente impresionante que capte y convierta a su audiencia. Permítanos elevar su marca a través de la creatividad y el diseño estratégico."
