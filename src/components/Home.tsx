@@ -2,8 +2,7 @@
 import { useState } from 'react';
 import { useContext } from 'react';
 import { ThemeContext } from '../contexts/theme-context';
-import logoIcon from '../images/logo-icon.png';
-import '../styles/header.scss';
+import '../styles/home.scss';
 import { useTranslation } from 'react-i18next';
 
 function Home() {
@@ -16,8 +15,19 @@ function Home() {
     i18n.changeLanguage(language);
   } 
   
+  const { theme, setTheme } = useContext(ThemeContext);
+
+  const handleThemeChange = () => {
+
+    const isCurrentDark = theme === 'dark';
+    setTheme(isCurrentDark ? 'light' : 'dark');
+    localStorage.setItem('theme', isCurrentDark ? 'light' : 'dark');
+
+  };
+
   return (
     <>
+    <div className='home'>
         {/* INTRO */}
         <div>
             <div></div>
@@ -101,7 +111,7 @@ function Home() {
             </div>
             <div></div>
         </div>
-
+    </div>    
     </>
   );
 };

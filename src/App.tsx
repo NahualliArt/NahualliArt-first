@@ -22,7 +22,6 @@ function App() {
   return (
     <ThemeContext.Provider value={{ theme, setTheme }}>
       <div className={`theme-${theme}`}>
-        
           <div className="content-wrapper">
             <Header/>
             <Home/>
