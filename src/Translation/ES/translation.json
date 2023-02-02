@@ -4,7 +4,7 @@
         "hero" : "Creamos experiencias digitales intuitivas y estéticamente agradables",
         "button-intro" : "Leer más",
         "welcome" : "Llegaste a ",
-        "intro" : "una agencia de diseño visual digital donde la creatividad se une a la funcionalidad. Nuestro equipo crea experiencias visualmente impresionantes y centradas en el usuario para sitios web, aplicaciones móviles y productos digitales. Colaboremos para dar vida a tu visión y dejar un impacto duradero en tu audiencia.",
+        "intro" : "Una agencia de diseño visual digital donde la creatividad se une a la funcionalidad. Nuestro equipo crea experiencias visualmente impresionantes y centradas en el usuario para sitios web, aplicaciones móviles y productos digitales. Colaboremos para dar vida a tu visión y dejar un impacto duradero en tu audiencia.",
         "work" : {
             "ui-design" : "Diseño UI",
             "ui-text" : "Servicio de diseño de UI para agencias, especializado en la creación de interfaces elegantes y funcionales para aplicaciones web/móviles. Elevamos la experiencia del usuario.",
@@ -76,6 +76,11 @@
             "header" : "Chilanguerias",
             "text" : "Chilanguerias necesitaba que su tienda de ropa destaque con ilustraciones personalizadas. Nuestro equipo crea diseños llamativos para tu sitio web y material publicitario. ¡Dale a tu marca una personalidad y un atractivo únicos con ilustraciones personalizadas!",
             "button" : "See More"
+        },
+        "yaquiYoreme-slider" : {
+            "header" : "Comunidad Yaqui Yoreme",
+            "text" : "Podemos dar vida a la riqueza y belleza de su comunidad con nuestros diseños de ilustraciones personalizadas. Nuestro experto equipo de diseño elabora piezas visualmente impresionantes que muestran con orgullo su historia y tradiciones únicas. Permítanos contar su historia de forma vívida y cautivadora.",
+            "button" : "Ver más"
         },
         "helenafc-slider" : {
             "header" : "Helena Fernandez-Cavada",

@@ -4,7 +4,7 @@
         "hero" : "Crafting intuitive and aesthetically pleasing digital experiences",
         "button-intro" : "Read more",
         "welcome" : "Welcome to ",
-        "intro" : "a full-service digital visual design agency where creativity meets functionality. Our team craft visually stunning and user-centered experiences for websites, mobile apps, and digital products. Let's partner to bring your vision to life and leave a lasting impact on your audience.",
+        "intro" : "A full-service digital visual design agency where creativity meets functionality. Our team craft visually stunning and user-centered experiences for websites, mobile apps, and digital products. Let's partner to bring your vision to life and leave a lasting impact on your audience.",
         "work": {
             "ui-design" : "UI Design",
             "ui-text" : "UI design service for agencies, specializing in crafting elegant & functional interfaces for web/mobile apps. Elevating user experiences.",
@@ -76,6 +76,11 @@
             "chilanguerias-slider" : {
                 "header" : "Chilanguerias",
                 "text" : "Chilanguerias needed their clothing store to stand out with custom illustrations. Our team creates eye-catching designs for your website and advertising materials. Give your brand a unique personality and appeal with custom illustrations!",
+                "button" : "See More"
+            },
+            "yaquiYoreme-slider" : {
+                "header" : "Comunidad Yaqui Yoreme",
+                "text" : "We can bring the richness and beauty of your community to life with our custom illustration designs. Our expert design team crafts visually stunning pieces that proudly showcase your unique history and traditions. Let us tell your story in a vivid, captivating way.",
                 "button" : "See More"
             },
             "helenafc-slider" : {
