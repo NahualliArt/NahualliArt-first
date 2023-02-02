@@ -23,7 +23,7 @@
         },
         "cta" : {
             "title" : "¡Hablemos!",
-            "text" : "Lorem ipsum dolor sit amet consectetur. Euismod a id neque felis aliquam maecenas dictum. Pellentesque sit arcu in etiam sapien tempor vitae non et. Lectus dictum velit integer eu auctor sollicitudin molestie pellentesque. Id commodo tortor sapien pharetra in tincidunt eu."
+            "text" : "¡Contacta con nosotros! Nuestra sección de contacto es tu puerta de entrada a los servicios de diseño profesional. Envía tu consulta sobre el proyecto, haz preguntas o simplemente salúdanos. Estamos aquí para ayudarte y estamos deseando saber de ti."
         }
     },
     "sliders-projects" : {
@@ -94,7 +94,7 @@
         }
     },
     "projects" : {
-        "mag-proyecto-es" : {
+        "mag-proyecto" : {
             "header" : "Moto Arte Garage"
         }
     }
