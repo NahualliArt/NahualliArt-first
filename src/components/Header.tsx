@@ -37,7 +37,11 @@ function Header() {
         
         <div  className="menuLinks">
           <ul>
-            <Link to={'/#contact'}><li>Home</li></Link>
+            <Link to={'/'}><li>Welcome</li></Link>
+            <Link to={'/#work'}><li>Work</li></Link>
+            <Link to={'/#team'}><li>Team</li></Link>
+            <Link to={'/#projects'}><li>Projects</li></Link>
+            <Link to={'/#contact'}><li>Contact</li></Link>
           </ul>
         </div>
 

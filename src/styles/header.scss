@@ -30,6 +30,16 @@
         margin: auto;
       }
     }
+    .menuLinks {
+      ul{
+        list-style-type: none;
+        display: flex;
+        li {
+          color: white;
+          padding: 0 12px;
+        }
+      }
+    }
     .toggle-btn-section {
       margin: auto 0 auto auto;
       .toggle-checkbox {
