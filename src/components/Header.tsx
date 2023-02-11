@@ -4,6 +4,7 @@ import { useContext } from 'react';
 import { ThemeContext } from '../contexts/theme-context';
 import '../styles/header.scss';
 import { useTranslation } from 'react-i18next';
+import { HashLink as Link } from 'react-router-hash-link';
 
 function Header() {
 
@@ -26,7 +27,6 @@ function Header() {
   };  
   
   return (
-
     <header className="header">
       <div className="header-content">
 
@@ -35,9 +35,11 @@ function Header() {
           <option value={"es"}>Spanish</option>
         </select>
         
-        <a href="/" className="logo-section">
-          <span>{t("test-text")}</span>
-        </a>
+        <div  className="menuLinks">
+          <ul>
+            <Link to={'/#contact'}><li>Home</li></Link>
+          </ul>
+        </div>
 
         <div className="toggle-btn-section">
           <div className={`toggle-checkbox m-vertical-auto`}>

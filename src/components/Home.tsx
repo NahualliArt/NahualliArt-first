@@ -38,7 +38,7 @@ function Home() {
             </div>
         </div>
         {/* WELCOME */}
-        <div>
+        <div id="welcome">
             <div>
                 <h2>{t("home.welcome")}</h2>
                 <p>{t("home.intro")}</p>
@@ -53,7 +53,7 @@ function Home() {
             <h2>Graphic Design</h2>
         </div>
         {/* SERVICES */}
-        <div>
+        <div id="work">
             <div>
                 <div>
                     <h4>{t("home.work.ui-design")}</h4>
@@ -80,7 +80,7 @@ function Home() {
             </div>
         </div>
         {/* TEAM */}
-        <div>
+        <div id="team">
             <div>
                 <div>
                     <div></div>
@@ -103,7 +103,7 @@ function Home() {
         {/* SLIDER IT'S A COMPONENT */}
 
         {/* CTA */}
-        <div>
+        <div id="contact">
             <div>
                 <h3>{t("home.cta.title")}</h3>
                 <p>{t("home.cta.text")}</p>

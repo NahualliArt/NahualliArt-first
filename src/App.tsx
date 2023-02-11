@@ -3,6 +3,7 @@ import { ThemeContext } from './contexts/theme-context';
 import Header from './components/Header';
 import Home from './components/Home';
 import './styles/App.scss';
+import { BrowserRouter, Routes, Route, useRoutes } from "react-router-dom";
 
 function App() {
 
@@ -18,16 +19,22 @@ function App() {
 
   const [theme, setTheme] = useState(getDefaultTheme());
 
-
   return (
     <ThemeContext.Provider value={{ theme, setTheme }}>
       <div className={`theme-${theme}`}>
           <div className="content-wrapper">
-            <Header/>
-            <Home/>
+            <BrowserRouter>
+              <Header/>
+              <Routes>
+                <Route path="/" element={<Home/>}/>
+              </Routes>
+            </BrowserRouter>
+
           </div>
       </div>
     </ThemeContext.Provider>
+
+
   );
 }
 
