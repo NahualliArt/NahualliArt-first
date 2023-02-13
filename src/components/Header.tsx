@@ -1,8 +1,9 @@
 // header.tsx
-import { useState } from 'react';
+import { ChangeEventHandler } from 'react';
 import { useContext } from 'react';
-import { ThemeContext } from '../contexts/theme-context';
+//import { ThemeContext } from '../contexts/theme-context';
 import '../styles/header.scss';
+import '../styles/App.scss';
 import { useTranslation } from 'react-i18next';
 import { HashLink as Link } from 'react-router-hash-link';
 
@@ -16,15 +17,50 @@ function Header() {
     i18n.changeLanguage(language);
   }
 
-  const { theme, setTheme } = useContext(ThemeContext);
+  const setDark = () => {
+    localStorage.setItem("theme", "dark");
 
-  const handleThemeChange = () => {
+    document.documentElement.setAttribute("data-theme", "dark");
+  };
 
-    const isCurrentDark = theme === 'dark';
-    setTheme(isCurrentDark ? 'light' : 'dark');
-    localStorage.setItem('theme', isCurrentDark ? 'light' : 'dark');
+  const setLight = () => {
+    localStorage.setItem("theme", "light");
 
-  };  
+    document.documentElement.setAttribute("data-theme", "light");
+  };
+
+  const storedTheme = localStorage.getItem("theme");
+
+  const prefersDark =
+  window.matchMedia &&
+  window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+  const defaultDark =
+  storedTheme === "dark" || (storedTheme === null && prefersDark);
+
+  if (defaultDark) {
+    setDark();
+  }
+
+
+  const toggleTheme: ChangeEventHandler<HTMLInputElement> = (e) => {
+    if(e.target.checked) {
+      setDark();
+    } else {
+      setLight();
+    }
+  }
+  
+
+  //const { theme, setTheme } = useContext(ThemeContext);
+
+  //const handleThemeChange = () => {
+
+   // const isCurrentDark = theme === 'dark';
+    //setTheme(isCurrentDark ? 'light' : 'dark');
+    //localStorage.setItem('theme', isCurrentDark ? 'light' : 'dark');
+
+  //};  
   
   return (
     <header className="header">
@@ -45,17 +81,20 @@ function Header() {
           </ul>
         </div>
 
-        <div className="toggle-btn-section">
-          <div className={`toggle-checkbox m-vertical-auto`}>
+        <div className="toggle-theme-wrapper">
+          <span>☀️</span>
+          <label className="toggle-theme" htmlFor="checkbox">
             <input
-              className="toggle-btn__input"
               type="checkbox"
-              name="checkbox"
-              onChange={handleThemeChange}
-              checked={theme === 'light'}
+              id="checkbox"
+
+              // 6
+              onChange={toggleTheme}
+              defaultChecked={defaultDark}
             />
-            <button type="button" className={`toggle-btn__input-label`} onClick={handleThemeChange}></button>
-          </div>
+            <div className="slider round"></div>
+          </label>
+          <span>🌒</span>
         </div>
       </div>
     </header>

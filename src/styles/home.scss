@@ -1,8 +1,8 @@
-@import '../styles/theme-variables.scss';
+//@import '../styles/theme-variables.scss';
 
 .home{
-    @include themify($themes) {
+   /** @include themify($themes) {
         background: themed('colorHeaderFooter');
         color: themed('colorText');
-      }
+      }**/
 }

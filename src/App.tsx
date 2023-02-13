@@ -1,41 +1,37 @@
-import { useState } from 'react';
+import { useState} from 'react';
 import { ThemeContext } from './contexts/theme-context';
 import Header from './components/Header';
 import Home from './components/Home';
 import './styles/App.scss';
 import { BrowserRouter, Routes, Route, useRoutes } from "react-router-dom";
 
-function App() {
+export default function App(): JSX.Element {
 
   // Detecting the default theme
   
   const isBrowserDefaultDark = () => window.matchMedia('(prefers-color-scheme: dark)').matches;
 
-  const getDefaultTheme = () : string => {
-    const localStorageTheme = localStorage.getItem('default-theme');
-    const browserDefault = isBrowserDefaultDark() ? 'dark' : 'light';
-    return localStorageTheme || browserDefault;
-  };
+  // const getDefaultTheme = () : string => {
+  //   const localStorageTheme = localStorage.getItem('default-theme');
+  //   const browserDefault = isBrowserDefaultDark() ? 'dark' : 'light';
+  //   return localStorageTheme || browserDefault;
+  // };
 
-  const [theme, setTheme] = useState(getDefaultTheme());
+  // const [theme, setTheme] = useState(getDefaultTheme());
+
+     {/* <ThemeContext.Provider value={{ theme, setTheme }}>
+          <div className={`theme-${theme}`}>
+      </ThemeContext.Provider>
+  */} 
 
   return (
-    <ThemeContext.Provider value={{ theme, setTheme }}>
-      <div className={`theme-${theme}`}>
-          <div className="content-wrapper">
-            <BrowserRouter>
-              <Header/>
-              <Routes>
-                <Route path="/" element={<Home/>}/>
-              </Routes>
-            </BrowserRouter>
-
-          </div>
+      <div>
+        <BrowserRouter>
+          <Header/>
+          <Routes>
+            <Route path="/" element={<Home/>}/>
+          </Routes>
+        </BrowserRouter>
       </div>
-    </ThemeContext.Provider>
-
-
   );
 }
-
-export default App
