@@ -4,7 +4,7 @@ import { useContext } from 'react';
 import { ThemeContext } from '../contexts/theme-context';
 import '../styles/home.scss';
 import { useTranslation } from 'react-i18next';
-
+//import { ScrollMenu } from '../ScrollMenu';
 function Home() {
 
   //translator
@@ -101,7 +101,8 @@ function Home() {
         </div>
 
         {/* SLIDER IT'S A COMPONENT */}
-
+            
+            
         {/* CTA */}
         <div id="contact">
             <div>
