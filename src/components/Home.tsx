@@ -101,7 +101,11 @@ function Home() {
         </div>
 
         {/* SLIDER IT'S A COMPONENT */}
-            
+            <div>
+                <h1>Slider</h1>
+               
+            </div>
+
             
         {/* CTA */}
         <div id="contact">
