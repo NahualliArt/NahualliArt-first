@@ -5,6 +5,8 @@ import { ThemeContext } from '../contexts/theme-context';
 import '../styles/home.scss';
 import { useTranslation } from 'react-i18next';
 //import { ScrollMenu } from '../ScrollMenu';
+import Slider from './home-projects-slider/ScrollMenu';
+
 function Home() {
 
   //translator
@@ -79,6 +81,7 @@ function Home() {
                 </div>
             </div>
         </div>
+
         {/* TEAM */}
         <div id="team">
             <div>
@@ -101,6 +104,9 @@ function Home() {
         </div>
 
         {/* SLIDER IT'S A COMPONENT */}
+        <div>
+            <Slider/> {/*Esto da error vas a tener que buscar como mandar llamar al slider aqui*/}
+        </div>
             
             
         {/* CTA */}
