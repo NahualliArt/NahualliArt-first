@@ -1,10 +1,10 @@
 import React from 'react';
 //import ItemsMap from 'react-horizontal-scrolling-menu/dist/types/ItemsMap';
 import Slider from 'react-slick';
-import item1 from './MagItem'; //este es un componente donde ira el diseño de un projecto, busca como llamarlo dentro de un array.
+import Item1 from './MagItem'; //este es un componente donde ira el diseño de un projecto, busca como llamarlo dentro de un array.
 
 //Se supone en esto el FC significa "function component". Se supone que esto es el arrray
-const projects: React.FC[]=[item1];
+const projects: React.FC[]=[Item1];
 /*
 Otra opción(?) Esta es la que no me salió no entiendo bien por qué
 const items = items.map((item) => {

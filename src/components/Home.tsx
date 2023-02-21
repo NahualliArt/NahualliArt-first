@@ -6,8 +6,7 @@ import '../styles/home.scss';
 import { useTranslation } from 'react-i18next';
 //import { ScrollMenu } from '../ScrollMenu';
 import Slider from './home-projects-slider/ScrollMenu';
-import arraySlider  from './home-projects-slider/ScrollMenu';
-import MagItem from './home-projects-slider/MagItem';
+import Item1 from './home-projects-slider/MagItem';
 
 function Home() {
 
@@ -107,9 +106,7 @@ function Home() {
 
         {/* SLIDER IT'S A COMPONENT */}
             <div>
-                <h1>Slider</h1>
-                <div>{ }</div>
-               
+               <Item1 />
             </div>
 
         <div>
