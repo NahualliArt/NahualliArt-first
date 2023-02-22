@@ -8,6 +8,8 @@ import { useTranslation } from 'react-i18next';
 import Slider from './home-projects-slider/ScrollMenu';
 import Item1 from './home-projects-slider/MagItem';
 
+//images
+
 function Home() {
 
   //translator
@@ -32,10 +34,9 @@ function Home() {
     <>
     <div className='home'>
         {/* INTRO */}
-        <div>
-            <div></div>
-            <div>
-                <h1>nahualli.art</h1>
+        <div className='hero'>
+            <h1>nahualli.art</h1>
+            <div className='hero-dis'>
                 <h4>{t("home.hero")}</h4>
                 <button>{t("home.button-intro")}</button>
             </div>
