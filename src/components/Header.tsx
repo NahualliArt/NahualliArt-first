@@ -65,12 +65,6 @@ function Header() {
   return (
     <header className="header">
       <div className="header-content">
-
-        <select onChange={onClickLanguageChange}>
-          <option value={"en"}>English</option>
-          <option value={"es"}>Spanish</option>
-        </select>
-        
         <div  className="menuLinks">
           <ul>
             <Link to={'/'}><li>Welcome</li></Link>
@@ -80,25 +74,27 @@ function Header() {
             <Link to={'/#contact'}><li>Contact</li></Link>
           </ul>
         </div>
+        
+        <div className='actions-header'>
+          <select onChange={onClickLanguageChange} className="select-translate">
+            <option value={"en"}>ENG</option>
+            <option value={"es"}>ESP</option>
+          </select>
 
-        <div className="toggle-theme-wrapper">
-          <span>☀️</span>
-          <label className="toggle-theme" htmlFor="checkbox">
-            <input
-              type="checkbox"
-              id="checkbox"
-
-              // 6
-              onChange={toggleTheme}
-              defaultChecked={defaultDark}
-            />
-            <div className="slider round"></div>
-          </label>
-          <span>🌒</span>
+          <div className="toggle-theme-wrapper">
+            <label className="toggle-theme" htmlFor="checkbox">
+              <input
+                type="checkbox"
+                id="checkbox"
+                onChange={toggleTheme}
+                defaultChecked={defaultDark}
+              />
+              <div className="slider round"></div>
+            </label>
+          </div>
         </div>
       </div>
     </header>
-
   );
 };
 
