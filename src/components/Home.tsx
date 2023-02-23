@@ -9,6 +9,7 @@ import Slider from './home-projects-slider/ScrollMenu';
 import Item1 from './home-projects-slider/MagItem';
 
 //images
+import welcomeImg from '../assets/asset1.png'
 
 function Home() {
 
@@ -42,12 +43,14 @@ function Home() {
             </div>
         </div>
         {/* WELCOME */}
-        <div id="welcome">
-            <div>
+        <div id="welcome" className='welcome'>
+            <div className='welcome-text'>
                 <h2>{t("home.welcome")}</h2>
                 <p>{t("home.intro")}</p>
             </div>
-            <div></div>
+            <div className='welcome-img'>
+                <img src={welcomeImg} alt="decorative image"/>
+            </div>
         </div>
         {/* TEXT DECORATION */}
         <div>
