@@ -53,11 +53,11 @@ function Home() {
             </div>
         </div>
         {/* TEXT DECORATION */}
-        <div>
-            <h2>UI Design</h2>
-            <h2>Web Design</h2>
-            <h2>Illustration</h2>
-            <h2>Graphic Design</h2>
+        <div className='text-anima'>
+            <div className="animation-text">
+                <h2>UI Design - Web Design - Illustration - Graphic Design -</h2>
+                <h2> UI Design - Web Design - Illustration - Graphic Design</h2>
+            </div>
         </div>
         {/* SERVICES */}
         <div id="work">
