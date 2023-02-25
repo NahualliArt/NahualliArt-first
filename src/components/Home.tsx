@@ -9,7 +9,11 @@ import Slider from './home-projects-slider/ScrollMenu';
 import Item1 from './home-projects-slider/MagItem';
 
 //images
-import welcomeImg from '../assets/asset1.png'
+import welcomeImg from '../assets/asset1.png';
+import uiuxImg from '../assets/uiux.png';
+import webImg from '../assets/web.png';
+import graphicImg from '../assets/graphic.png';
+import illustraImg from '../assets/ilustra.png';
 
 function Home() {
 
@@ -60,28 +64,28 @@ function Home() {
             </div>
         </div>
         {/* SERVICES */}
-        <div id="work">
-            <div>
-                <div>
+        <div id="work" className='work-section'>
+            <div className='section'>
+                <div className='work-card'>
                     <h4>{t("home.work.ui-design")}</h4>
-                    <div></div>
+                    <img src={uiuxImg} alt="decorative image"/>
                     <p>{t("home.work.ui-text")}</p>
                 </div>
-                <div>
+                <div className='work-card'>
                     <h4>{t("home.work.web-design")}</h4>
-                    <div></div>
+                    <img src={webImg} alt="decorative image"/>
                     <p>{t("home.work.web-text")}</p>
                 </div>
             </div>
-            <div>
-                <div>
+            <div className='section'>
+                <div className='work-card'>
                     <h4>{t("home.work.illustration")}</h4>
-                    <div></div>
+                    <img src={illustraImg} alt="decorative image"/>
                     <p>{t("home.work.illustration-text")}</p>
                 </div>
-                <div>
+                <div className='work-card'>
                     <h4>{t("home.work.graphic-design")}</h4>
-                    <div></div>
+                    <img src={graphicImg} alt="decorative image"/>
                     <p>{t("home.work.graphic-text")}</p>
                 </div>
             </div>
