@@ -6,16 +6,7 @@ import Item2 from './BizItem';
 
 //Se supone en esto el FC significa "function component". Se supone que esto es el arrray
 const projects: React.FC[]=[Item1, Item2];
-/*
-Otra opción(?) Esta es la que no me salió no entiendo bien por qué
-const items = items.map((item) => {
-  return (
-    <Component
-    key={item}
-    />
-  );
-});
-*/
+
 
 //Aquí se supone que se hace render, pero todavía no sé bien qué significa eso 
 const App: React.FC = () => {
