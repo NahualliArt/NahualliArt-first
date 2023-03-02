@@ -18,6 +18,20 @@ const projects: React.FC[]=[Item1, Item2];
     </div>
   );
 };
+
+class ScrollHandler{
+  private duration:number;
+	private scrolling:boolean;
+	private pages:number;
+
+  constructor(containerId:string,duration:number=500) {
+    this.pages = projects.map;
+    this.scrolling = false;
+		this.duration = duration;
+		this.hook();
+  }
+
+}
 /*No sirve
 interface MenuItem {
   text: string;
