@@ -3,11 +3,12 @@ import {useState} from 'react';
 import Slider from 'react-slick';
 import Item1 from './MagItem';
 import Item2 from './BizItem';
+//import ItemsMap from 'react-horizontal-scrolling-menu/dist/types/ItemsMap';
 
 export default function App(props:any){
-  const items = ["MagItem.tsx","BizItem.tsx"]; //En el ejemplo aquí van el nombre de las imágenes en comillas, ej. "imagen2.jpg"
+  const items = ["Item1", "Item2"]; //En el ejemplo aquí van el nombre de las imágenes en comillas, ej. "imagen2.jpg"
   const [selectedIndex, setSelectedIndex] = useState(0);
-  const [selectedItems, setSelectedItems] =useState(items[0]);
+  const [SelectedItems, setSelectedItems] =useState(items[0]);
 
   const selectNewItem = (index: number, items: string[], next = true) => {
     const condition = next ? selectedIndex < items.length : selectedIndex > 0;
@@ -24,16 +25,13 @@ export default function App(props:any){
   const next = () => {
     selectNewItem(selectedIndex, items);
   };
-  /*
-  En el ejemplo esto va debajo del "return", revisar cómo hacer para que funcione con los items del slider
-  <img src={require(`#/${setSelectedItems}`)}/>
-  */
+
   return <>
-    
-    <Item1/>
-    <Item2/>
+    <Item1></Item1>
       <button onClick={previous}>{"<"}</button>
       <button onClick={next}>{">"}</button>
+      
+      
 
   </>
 }
