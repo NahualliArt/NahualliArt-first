@@ -5,9 +5,8 @@ import { ThemeContext } from '../contexts/theme-context';
 import '../styles/home.scss';
 import { useTranslation } from 'react-i18next';
 //import { ScrollMenu } from '../ScrollMenu';
-//import Slider from './home-projects-slider/ScrollMenu';
-import Item1 from './home-projects-slider/MagItem';
-import Item2 from './home-projects-slider/MagItem';
+import Slider from './home-projects-slider/ScrollMenu';
+
 
 //images
 import welcomeImg from '../assets/asset1.png';
@@ -115,8 +114,7 @@ function Home() {
 
         {/* SLIDER IT'S A COMPONENT */}
             <div>
-            <Item1 />
-            <Item2 />
+            <Slider/>
             </div>
 
         <div>
