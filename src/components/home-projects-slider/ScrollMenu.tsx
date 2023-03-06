@@ -26,14 +26,23 @@ export default function App(props:any){
     selectNewItem(selectedIndex, items);
   };
 
-  return <>
-    <Item1></Item1>
+  return (
+
+    <div>
+      {selectedIndex === 0 && <Item1/>}
+      {selectedIndex === 1 && <Item2/>}
+
       <button onClick={previous}>{"<"}</button>
       <button onClick={next}>{">"}</button>
-      
+    </div>
+
+  );
+    
+
+  
+    
       
 
-  </>
 }
 
  /* Este era la forma anterior de enseñar el arreglo en pantalla
