@@ -4,6 +4,7 @@ import { useContext } from 'react';
 import { ThemeContext } from '../contexts/theme-context';
 import '../styles/home.scss';
 import { useTranslation } from 'react-i18next';
+import Hero from './animations/Hero';
 //import { ScrollMenu } from '../ScrollMenu';
 import Slider from './home-projects-slider/ScrollMenu';
 
@@ -47,6 +48,7 @@ function Home() {
                 <h4>{t("home.hero")}</h4>
                 <button>{t("home.button-intro")}</button>
             </div>
+            <Hero/>
             
         </div>
         {/* WELCOME */}
