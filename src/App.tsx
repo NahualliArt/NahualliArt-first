@@ -2,6 +2,7 @@ import { useState} from 'react';
 import { ThemeContext } from './contexts/theme-context';
 import Header from './components/Header';
 import Home from './components/Home';
+import Footer from './components/Footer';
 import './styles/App.scss';
 import { BrowserRouter, Routes, Route, useRoutes } from "react-router-dom";
 
@@ -31,6 +32,7 @@ export default function App(): JSX.Element {
           <Routes>
             <Route path="/" element={<Home/>}/>
           </Routes>
+          <Footer/>
         </BrowserRouter>
       </div>
   );

@@ -14,6 +14,8 @@ import uiuxImg from '../assets/uiux.png';
 import webImg from '../assets/web.png';
 import graphicImg from '../assets/graphic.png';
 import illustraImg from '../assets/ilustra.png';
+import abiPic from '../assets/abi.png';
+import kitPic from '../assets/kitzia.png';
 
 function Home() {
 
@@ -45,6 +47,7 @@ function Home() {
                 <h4>{t("home.hero")}</h4>
                 <button>{t("home.button-intro")}</button>
             </div>
+            
         </div>
         {/* WELCOME */}
         <div id="welcome" className='welcome'>
@@ -92,45 +95,41 @@ function Home() {
         </div>
 
         {/* TEAM */}
-        <div id="team">
-            <div>
-                <div>
-                    <div></div>
+        <div id="team" className='team-section'>
+            <div className='members'>
+                <div className='member-card'>
+                    <img src={abiPic} alt="A draw of Abigail P"/>
                     <h3>Abigail P</h3>
                     <p>{t("home.team.sandra-text")}</p>
                 </div>
-                <div>
-                    <div></div>
+                <div className='member-card'>
+                    <img src={kitPic} alt="A draw of Kitzia P"/>
                     <h3>Kitzia P</h3>
                     <p>{t("home.team.kitzia-text")}</p>
                 </div>
             </div>
 
-            <div>
-                <h3>{t("home.team.title")}</h3>
+            <div className='team-text'>
+                <h2>{t("home.team.title")}</h2>
                 <p>{t("home.team.text")}</p>
             </div>
         </div>
 
         {/* SLIDER IT'S A COMPONENT */}
-            <div>
-            <Slider/>
-            </div>
-
         <div>
-             {/*Esto da error vas a tener que buscar como mandar llamar al slider aqui*/}
+            <Slider/>
         </div>
             
-            
         {/* CTA */}
-        <div id="contact">
-            <div>
-                <h3>{t("home.cta.title")}</h3>
+        <div id="contact" className='ctaSection'>
+            <div className='ctaText'>
+                <h2>{t("home.cta.title")}</h2>
                 <p>{t("home.cta.text")}</p>
-                <p>contacto@nahualliart.com</p>
+                <h3><a href='mailto:contacto@nahualliart.com'>contacto@nahualliart.com</a></h3>
             </div>
             <div></div>
         </div>
+
     </div>    
     </>
   );

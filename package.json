@@ -17,6 +17,7 @@
     "react-dom": "^18.2.0",
     "react-horizontal-scrolling-menu": "^3.2.3",
     "react-i18next": "^12.1.4",
+    "react-icons": "^4.8.0",
     "react-router-dom": "^6.8.1",
     "react-router-hash-link": "^2.4.3",
     "react-scripts": "^5.0.1",
