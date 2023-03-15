@@ -68,3 +68,7 @@ select {
 select::-ms-expand {
   display: none;
 }
+
+button{
+  z-index: 10 !important;
+}
