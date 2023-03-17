@@ -14,19 +14,23 @@
     }
     .action-move:hover{
         background-color: #f5f5f5;
+        cursor: pointer;
         font-size: 50px;
         .icon{
             color:#EA0000;
         }
     }
     .sliderBg{
-        width: 100vw;
+        width: 100%;
         background-color: #333;
         margin: auto;
-        padding: 4%;
+        padding: 4% 1%;
         display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
         .projectText{
-            width: 30vw;
+            padding: 0 0 0 6%;
             color: #f5f5f5; 
             h3{
                font-weight: 300;
@@ -43,6 +47,14 @@
                 background-color: #D00C0C;
                 border: #D00C0C;
                 cursor: pointer;
+            }
+        }
+
+        .projectImg{
+            width: inherit;
+            img{
+                width: 100%;
+                height: auto;
             }
         }
     }

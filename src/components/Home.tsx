@@ -4,7 +4,10 @@ import { useContext } from 'react';
 import { ThemeContext } from '../contexts/theme-context';
 import '../styles/home.scss';
 import { useTranslation } from 'react-i18next';
+//Gifs
 import Hero from './animations/Hero';
+import Welcome from './animations/Welcome';
+import Footer from './animations/FooterAnima';
 //import { ScrollMenu } from '../ScrollMenu';
 import Slider from './home-projects-slider/ScrollMenu';
 
@@ -57,9 +60,7 @@ function Home() {
                 <h2>{t("home.welcome")}</h2>
                 <p>{t("home.intro")}</p>
             </div>
-            <div className='welcome-img'>
-                <img src={welcomeImg} alt="decorative image"/>
-            </div>
+              <Welcome/>
         </div>
         {/* TEXT DECORATION */}
         <div className='text-anima'>
@@ -129,7 +130,7 @@ function Home() {
                 <p>{t("home.cta.text")}</p>
                 <h3><a href='mailto:contacto@nahualliart.com'>contacto@nahualliart.com</a></h3>
             </div>
-            <div></div>
+            <Footer/>
         </div>
 
     </div>    

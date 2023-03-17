@@ -2,7 +2,6 @@
 
 .home{
    margin: auto;
-
    .hero{
     padding: 0 4%;
     text-align: center;
@@ -45,23 +44,14 @@
    .welcome{
       display: flex;
       //flex-flow: row-reverse wrap;
-      align-content: stretch;
-      align-items: center;
-      justify-content: space-between;
+      justify-content: center;
+      align-content: center;
       gap: 4%;
       margin-top: 4%;
-      padding: 4%;
+      padding: 8%;
       .welcome-text{
-         flex-grow: 1;
-         padding: 0 2%;
          color: var(--colorText);
          width: 40vw;
-      }
-      .welcome-img{
-         img{
-            width: 500px;
-            height: auto;
-         }
       }
    }
 
@@ -155,9 +145,12 @@
 
    .ctaSection{
       display: flex;
-      padding: 4%;
-      width: 50vw;
-      color: var(--colorText);
+      gap: 40px;
+      padding: 14%;
+      .ctaText{
+         width: 50vw;
+         color: var(--colorText);
+      }
       h3{
          font-weight: 300;
          color: #666;

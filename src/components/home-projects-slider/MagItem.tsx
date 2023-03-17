@@ -3,6 +3,7 @@ import Slider from 'react-slick';
 
 import '../../styles/slider.scss'
 
+//imagenes
 
 function MagItem() {
     return(
@@ -15,7 +16,7 @@ function MagItem() {
             </div>
             <div className='projectImg'>
                 <div>
-                    
+                    <img src='https://cdn.dribbble.com/users/2307112/screenshots/18259767/media/8f48f73dc9e630c184940775ba11692b.png?compress=1&resize=1600x1200&vertical=top' alt='Cover photo from Moto Arte Garage website'/>
                 </div>
             </div>
         </div>
