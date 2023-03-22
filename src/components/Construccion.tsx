@@ -5,7 +5,7 @@ function Construccion(){
 
     return(
         <div>
-            <h1>En mantenimiento</h1>
+            <h1>Mantenimiento</h1>
         </div>
     );
 };
