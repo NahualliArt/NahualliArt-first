@@ -1,7 +1,7 @@
 
 
 
-function Construccion(){
+function Error(){
 
     return(
         <div>
@@ -11,4 +11,4 @@ function Construccion(){
     );
 };
 
-export default Construccion;
+export default Error;

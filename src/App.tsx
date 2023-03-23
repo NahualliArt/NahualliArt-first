@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Home from './components/Home';
 import Construccion from './components/Construccion'; //Pagina de mantenimiento
 import Footer from './components/Footer';
+import Error from './components/Error';
 import './styles/App.scss';
 import { BrowserRouter, Routes, Route, useRoutes } from "react-router-dom";
 

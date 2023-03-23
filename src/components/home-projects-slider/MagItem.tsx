@@ -22,7 +22,7 @@ function MagItem() {
                 <h3>Moto Arte Garage</h3>
                 <p>Lorem ipsum dolor sit amet consectetur. Euismod a id neque felis aliquam maecenas dictum. Pellentesque sit arcu in etiam sapien tempor vitae non et. Lectus dictum velit integer eu auctor sollicitudin molestie pellentesque. Id commodo tortor sapien pharetra in tincidunt eu.</p>
 
-                <Link to={'../../Construccion.tsx'}>See More</Link>
+                <Link to={'../../components/Construccion.tsx'}>See More</Link>
                                 
             </div>
             <div className='projectImg'>
