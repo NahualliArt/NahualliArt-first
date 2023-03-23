@@ -5,7 +5,8 @@ function Construccion(){
 
     return(
         <div>
-            <h1>Mantenimiento</h1>
+            <h1>Te perdiste</h1>
+            <h2>404 Error</h2>
         </div>
     );
 };
