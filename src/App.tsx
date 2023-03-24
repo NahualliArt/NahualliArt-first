@@ -2,7 +2,7 @@ import { useState} from 'react';
 import { ThemeContext } from './contexts/theme-context';
 import Header from './components/Header';
 import Home from './components/Home';
-import Construccion from './components/Construccion'; //Pagina de mantenimiento
+import Construccion from './components/errors/Construccion'; //Pagina de mantenimiento
 import Footer from './components/Footer';
 import Error from './components/Error';
 import './styles/App.scss';
@@ -34,6 +34,7 @@ export default function App(): JSX.Element {
           <Routes>
             <Route path="/" element={<Home/>}/>
           </Routes>
+          <Construccion/>
           <Footer/>
         </BrowserRouter>
       </div>
