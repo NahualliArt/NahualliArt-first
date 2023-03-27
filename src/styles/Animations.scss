@@ -1,0 +1,33 @@
+.heroImg{
+    img{
+        width: 80vw;
+        height: auto;
+        margin-top: -40vh;
+        margin-bottom: 10%;
+        z-index: -1;
+    }
+}
+
+.welcomeImg{
+    align-self: flex-end;
+    margin: 0;
+    padding: 0;
+    img{
+        width: 40vw;
+        height: auto;
+        margin-top: -50vh;
+        z-index: -1;
+    }
+}
+
+.footerImg{
+    align-self: flex-end;
+    margin: 0;
+    padding: 0;
+    img{
+        width: 30vw;
+        height: auto;
+        margin-top: -50vh;
+        z-index: -1;
+    }
+}

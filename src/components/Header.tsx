@@ -1,10 +1,11 @@
 // header.tsx
-import { useState } from 'react';
+import { ChangeEventHandler } from 'react';
 import { useContext } from 'react';
-import { ThemeContext } from '../contexts/theme-context';
-import logoIcon from '../images/logo-icon.png';
+//import { ThemeContext } from '../contexts/theme-context';
 import '../styles/header.scss';
+import '../styles/App.scss';
 import { useTranslation } from 'react-i18next';
+import { HashLink as Link } from 'react-router-hash-link';
 
 function Header() {
 
@@ -16,45 +17,84 @@ function Header() {
     i18n.changeLanguage(language);
   }
 
-  const { theme, setTheme } = useContext(ThemeContext);
+  const setDark = () => {
+    localStorage.setItem("theme", "dark");
 
-  const handleThemeChange = () => {
+    document.documentElement.setAttribute("data-theme", "dark");
+  };
 
-    const isCurrentDark = theme === 'dark';
-    setTheme(isCurrentDark ? 'light' : 'dark');
-    localStorage.setItem('theme', isCurrentDark ? 'light' : 'dark');
+  const setLight = () => {
+    localStorage.setItem("theme", "light");
 
-  };  return (
+    document.documentElement.setAttribute("data-theme", "light");
+  };
 
+  const storedTheme = localStorage.getItem("theme");
+
+  const prefersDark =
+  window.matchMedia &&
+  window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+  const defaultDark =
+  storedTheme === "dark" || (storedTheme === null && prefersDark);
+
+  if (defaultDark) {
+    setDark();
+  }
+
+
+  const toggleTheme: ChangeEventHandler<HTMLInputElement> = (e) => {
+    if(e.target.checked) {
+      setDark();
+    } else {
+      setLight();
+    }
+  }
+  
+
+  //const { theme, setTheme } = useContext(ThemeContext);
+
+  //const handleThemeChange = () => {
+
+   // const isCurrentDark = theme === 'dark';
+    //setTheme(isCurrentDark ? 'light' : 'dark');
+    //localStorage.setItem('theme', isCurrentDark ? 'light' : 'dark');
+
+  //};  
+  
+  return (
     <header className="header">
       <div className="header-content">
-
-      <select onChange={onClickLanguageChange}>
-          <option value={"en"}>English</option>
-          <option value={"es"}>Spanish</option>
-        </select>
+        <div  className="menuLinks">
+          <ul>
+            <Link to={'/'}><li>Welcome</li></Link>
+            <Link to={'/#work'}><li>Work</li></Link>
+            <Link to={'/#team'}><li>Team</li></Link>
+            <Link to={'/#projects'}><li>Projects</li></Link>
+            <Link to={'/#contact'}><li>Contact</li></Link>
+          </ul>
+        </div>
         
-        <a href="/" className="logo-section">
-          <span>{t("test-text")}</span>
-        </a>
-                        
-        
+        <div className='actions-header'>
+          <select onChange={onClickLanguageChange} className="select-translate">
+            <option value={"en"}>ENG</option>
+            <option value={"es"}>ESP</option>
+          </select>
 
-        <div className="toggle-btn-section">
-          <div className={`toggle-checkbox m-vertical-auto`}>
-            <input
-              className="toggle-btn__input"
-              type="checkbox"
-              name="checkbox"
-              onChange={handleThemeChange}
-              checked={theme === 'light'}
-            />
-            <button type="button" className={`toggle-btn__input-label`} onClick={handleThemeChange}></button>
+          <div className="toggle-theme-wrapper">
+            <label className="toggle-theme" htmlFor="checkbox">
+              <input
+                type="checkbox"
+                id="checkbox"
+                onChange={toggleTheme}
+                defaultChecked={defaultDark}
+              />
+              <div className="slider round"></div>
+            </label>
           </div>
         </div>
       </div>
     </header>
-
   );
 };
 

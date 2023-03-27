@@ -1,0 +1,61 @@
+.icon{
+    color: white;
+    width: 45px;
+    font-size: 20px;
+}
+
+.buttons-slides{
+    display: flex;
+    margin: 5% 0;
+    .action-move{
+        width: inherit;
+        background-color: #333;
+        border: #333;
+    }
+    .action-move:hover{
+        background-color: #f5f5f5;
+        cursor: pointer;
+        font-size: 50px;
+        .icon{
+            color:#EA0000;
+        }
+    }
+    .sliderBg{
+        width: 100%;
+        background-color: #333;
+        margin: auto;
+        padding: 4% 1%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        .projectText{
+            padding: 0 0 0 6%;
+            color: #f5f5f5; 
+            h3{
+               font-weight: 300;
+               font-size: 30px;
+            }
+            button{
+                background-color: #EA0000;
+                padding: 10px 20px;
+                color: #fff;
+                border: #EA0000;
+                border-radius: 4px;
+            }
+            button:hover{
+                background-color: #D00C0C;
+                border: #D00C0C;
+                cursor: pointer;
+            }
+        }
+
+        .projectImg{
+            width: inherit;
+            img{
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+}

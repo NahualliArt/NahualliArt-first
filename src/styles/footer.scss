@@ -1,0 +1,39 @@
+@import './App.scss';
+
+footer{
+    margin: auto;
+    text-align: center;
+    h3{
+        color: var(--colorText);
+        font-family: 'Lato', sans-serif;
+        font-weight: 300 !important;
+        font-size: 30px;
+    }
+    .socials{
+        z-index: 1;
+        .iconF{
+            color: var(--colorText);
+            margin: 0 20px;
+            width: 30px;
+            font-size: 25px;
+        }
+        .iconF:hover{
+            color: #EA0000;
+            cursor: pointer;
+        }
+    }
+    h1{
+        font-size: 27vh;
+        margin: -3%;
+        z-index: -1000 !important;
+        color: #F1F1F1;
+        mix-blend-mode: multiply;
+    }
+    .bottomSect{
+        background-color: #333;
+        width: 100vw;
+        height: 100px;
+        margin: -100px 0 0 0;
+        padding: 2%;
+    }
+}
