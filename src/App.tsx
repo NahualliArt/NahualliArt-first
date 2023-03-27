@@ -32,7 +32,7 @@ export default function App(): JSX.Element {
         <BrowserRouter>
           <Header/>
           <Routes>
-            <Route path="/" element={<Home/>}/>
+            <Route path="" element={<Home/>}/>
           </Routes>
           <Construccion/>
           <Error/>
