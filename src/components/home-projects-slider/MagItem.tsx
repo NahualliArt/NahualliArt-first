@@ -2,19 +2,16 @@ import React from 'react';
 import Slider from 'react-slick';
 
 import '../../styles/slider.scss'
-//import { useCallback } from "react";  //-> para el intento de boton
+import { useCallback } from "react";  //-> para el intento de boton
 import { HashLink as Link } from 'react-router-hash-link';
-
-
-
 
 //imagenes
 
 function MagItem() {
 
     //const handleClick = useCallback(() => {
-        //window.location.href = "../Construccion.tsx";
-      //}, []);
+    //    window.location.href = "../errors/Construccion.tsx";
+    //  }, []);
 
     return(
         <>
@@ -22,8 +19,9 @@ function MagItem() {
             <div className='projectText'>
                 <h3>Moto Arte Garage</h3>
                 <p>Lorem ipsum dolor sit amet consectetur. Euismod a id neque felis aliquam maecenas dictum. Pellentesque sit arcu in etiam sapien tempor vitae non et. Lectus dictum velit integer eu auctor sollicitudin molestie pellentesque. Id commodo tortor sapien pharetra in tincidunt eu.</p>
-
-                <Link to={'../errors/Construccion'}>See More</Link>
+                <Link to="../Construccion.tsx">
+                    <button>See more</button>
+                </Link>
                                 
             </div>
             <div className='projectImg'>

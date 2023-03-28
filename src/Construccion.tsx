@@ -1,6 +1,4 @@
-import Footer from '../animations/FooterAnima';
-
-
+import Footer from './components/animations/FooterAnima';
 
 function Construccion() {
 
@@ -10,11 +8,7 @@ function Construccion() {
             <div>
                 <h1>Mantenimiento</h1>
             </div>
-            <Footer/>
         </>
-  
-        
-        
 
     );
 };
